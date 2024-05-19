@@ -1,0 +1,293 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+.bread{
+    height: auto;
+    margin-left: 60px;
+    margin-top: 15px;
+    padding-left: 60px;
+}
+.bread .container-bread .breadcrumb-one>ol>li>a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+    padding-right: 8px;
+}
+.bread .container-bread .breadcrumb-one ol .active{
+    padding-left: 8px;
+}
+.bread .container-bread .breadcrumb-one>ol>li>a:hover{
+    color: rgb(234, 43, 43);
+}
+/* contact section  */
+.container-contact .row-contact .col-contact>h1{
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    color: #b3ada1;
+}
+.container-contact .row-contact{
+    padding: 50px;
+}
+.container-contact .row-contact .col-contact>div>div>div>label{
+    max-width: 100%;
+    margin-bottom: 14px;
+    font-weight: 600;
+    color: #aba99f;
+    font-size: 1rem;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.container-contact .row-contact .col-contact>div>div>div>input{
+    background-color: transparent;
+    border: 1px solid rgb(220, 215, 215);
+    border-radius: 0px;
+    height: 50px;
+    width: 100%;
+}
+.container-contact .row-contact .col-contact>div>div>div>h5{
+    color: #b6b4a2;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.container-contact .row-contact .col-contact>div>div>div>textarea{
+    background-color: transparent;
+    border: 1px solid rgb(220, 215, 215);
+    margin-bottom: 20px;
+}
+.container-contact .row-contact .col-contact>div>div>div>button{
+    border-radius: 0px;
+    background-color: transparent;
+    border: 1px solid rgb(197, 190, 190);
+    height: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #aba99f;
+    padding: 0px 20px;
+}
+.container-contact .row-contact .col-contact-four>h3{
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    color: #a59f90;
+    margin-top: 6px;
+}
+.container-contact .row-contact .col-contact-four>p{
+    font-weight: 600;
+    color: #8a8578;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+.container-contact .row-contact .col-contact-four>p>span{
+    color: #b6b4a2;
+    font-weight: 600;
+    font-size: 1rem;
+}
+/* contact setion end  */
+
+/* product section start  */
+ .product-html{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+ }
+ .product-html .container-product-html{
+    padding: 0px 70px;
+ }
+ #product-html-inner>div>img{
+    height: 93vh;
+ }
+ .product-html .container-product-html .col-right-side{
+    padding: 23px 15px;
+ }
+ .product-html .container-product-html .col-right-side>h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #848079;
+    letter-spacing: 2px;
+ }
+ .product-html .container-product-html .col-right-side .flex-product>span{
+    font-size: 1.1rem;
+    line-height: 28px;
+    color: #e61446;
+    font-weight: 600;
+ }
+ .product-html .container-product-html .col-right-side .flex-product>p{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #c1bcb1;
+ }
+ .product-html .container-product-html .col-right-side .flex-product>p>span{
+    padding: 0px 5px;
+ }
+ .product-html .container-product-html .col-right-side .apb{
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 7px;
+ }
+ .product-html .container-product-html .col-right-side .content-pro{
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 9px;
+ }
+ .product-html .container-product-html .col-right-side .sizes-of-products{
+    margin-top: 40px;
+ }
+ .product-html .container-product-html .col-right-side .sizes-of-products>h4{
+    font-size: 1rem;
+    color: #958f82;
+    font-weight: 600;
+    letter-spacing: 1px;
+ }
+ .product-html .container-product-html .col-right-side .sizes-of-products>div>button{
+    font-size: 1.1rem;
+    border-radius: 0%;
+    height: 40px;
+    width: 40px;
+    font-weight: 600;
+    color: #b9b5ab;
+    border: 1px solid rgb(210, 204, 204);
+    transition: 0.4s ease-in-out;
+ }
+ .product-html .container-product-html .col-right-side .sizes-of-products>div>button:hover{
+    color: #fff;
+    background-color: #b4b0a8;
+ }
+
+ .product-html .container-product-html .col-right-side .colors-of-products{
+    margin-top: 35px;
+ }
+ .product-html .container-product-html .col-right-side .colors-of-products>h4{
+    font-size: 1rem;
+    color: #958f82;
+    font-weight: 600;
+    letter-spacing: 1px;
+ }
+ .product-html .container-product-html .col-right-side .colors-of-products .colors-product-flex .red{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(237, 105, 100);
+    border: 1px solid #a19c91;
+}
+.product-html .container-product-html .col-right-side .colors-of-products .colors-product-flex .grey{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(165, 158, 157);
+    border: 1px solid #a19c91;
+}
+.product-html .container-product-html .col-right-side .colors-of-products .colors-product-flex .pink{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(229, 175, 179);
+    border: 1px solid #a19c91;
+}
+.product-html .container-product-html .col-right-side .colors-of-products .colors-product-flex .brown{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(152, 128, 98);
+    border: 1px solid #a19c91;
+}
+.product-html .container-product-html .col-right-side .colors-of-products .colors-product-flex .yellow{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(247, 245, 125);
+    border: 1px solid #a19c91;
+}
+.product-html .container-product-html .col-right-side .one-button{
+    margin-top: 20px;
+}
+.product-html .container-product-html .col-right-side .one-button .for-one{
+    height: 36px;
+    width: 65px;
+    margin-right: 20px;
+    border: 1px solid rgb(204, 200, 200);
+    background-color: transparent;
+    color: #aba99f;
+    font-weight: 600;
+}
+.product-html .container-product-html .col-right-side .one-button .add-to-cart{
+    height: 35.6px;
+    width: 150px;
+    color: #fff;
+    border: none;
+    background-color: #b1a38c;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+    font-size: 14px;
+    /* margin-right: 20px; */
+}
+.product-html .container-product-html .col-right-side .one-button .add-to-cart:hover{
+    background-color: rgb(224, 60, 60);
+    
+}
+.product-html .container-product-html .col-right-side .one-button .fa-heart{
+    font-size: 18px;
+    padding-top: 7px;
+    padding-left: 9px;
+    /* color: transparent; */
+}
+.product-html .container-product-html .col-right-side .one-button .fa-gift{
+    font-size: 18px;
+    padding-top: 7px;
+    padding-left: 9px;
+}
+.product-html .container-product-html .col-right-side .one-button>span{
+    height: 36px;
+    width: 40px;
+    border: 1px solid rgb(211, 203, 203);
+    margin-left: 20px;
+}
+.product-html .container-product-html .col-right-side .share-of-products{
+    margin-top: 23px;
+}
+.product-html .container-product-html .col-right-side .share-of-products>h4{
+    font-size: 1rem;
+    color: #878175;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.product-html .container-product-html .col-right-side .share-of-products>div>ul{
+    list-style: none;
+    margin-left: -3rem;
+}
+.product-html .container-product-html .col-right-side .share-of-products>div>ul>li{
+    border: 1px solid #cdccbf;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 3px;
+    transition: 0.3s ease-in;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.product-html .container-product-html .col-right-side .share-of-products>div>ul>li:hover{
+    background-color: rgb(224, 60, 60);
+    color: white;
+}
+.product-html .container-product-html .col-right-side .share-of-products>div>ul>li>a{
+    color: #a39e92;
+    font-size: 20px;
+    background-color: transparent;
+}
+.product-html .container-product-html .col-right-side .share-of-products>div>ul>li>a:hover{
+    color: white;
+}
+
+/* nav pills start */
+.pills-container .row-pills{
+    padding: 0px 60px;
+}
+/* nav pills end */
+
+/* product section end  */
